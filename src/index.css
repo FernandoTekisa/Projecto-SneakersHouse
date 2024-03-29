@@ -14,9 +14,8 @@
    align-items: center;
    background-color:aliceblue;
    box-shadow:1px 1px 6px;
-   padding: 10px;
+   padding: 15px;
    width: 100%;
-   position: fixed;
    top: 0;
 }
 .itens{
@@ -50,8 +49,6 @@ main{
 .text{
     font-size: 40px;
     text-align: center;
-    animation: fadeInDown;
-    animation-duration: 2s;
 }
 
 .text2{
@@ -63,8 +60,6 @@ main{
 }
 .paragrafos{
     font-size: 22px;
-    animation: fadeInDown;
-    animation-duration: 2s;
 }
 .link{
     font-size: 19px;
@@ -84,8 +79,6 @@ main{
 .main-text{
     font-size: 40px;
     margin: 11px;
-    animation: fadeInDown;
-    animation-duration: 2s;
 }
 .Low{
     width: 300px;
@@ -109,15 +102,11 @@ main{
 .Entrega{
     margin: 10px;
     font-size: 40px;
-    animation: fadeInDown;
-    animation-duration: 2s;
 }
 .test{
     margin:10px;
     font-size: 22px;
     text-align: center;
-    animation: fadeInDown;
-    animation-duration: 2s;
 }
 .homens{
     margin: 3rem;
@@ -134,4 +123,14 @@ footer{
     padding:20px;
     background-color: aliceblue;
     border-top:2px solid #bbbbbb;
+}
+.animate{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;  
 }

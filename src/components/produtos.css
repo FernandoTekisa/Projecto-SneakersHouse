@@ -4,6 +4,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:aliceblue;
+    box-shadow:1px 1px 6px;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+ }
+ .itens{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+.list-item a {
+    color: #000;
+}
+
+ .list-item a:hover{
+    text-decoration:underline;
 }
 .test{
     height: 50vh;
@@ -35,8 +61,6 @@
     box-shadow: 0px 2px 28px #989898;
     border-radius: 2rem;
     padding: 10px;
-    animation: zoomIn;
-    animation-duration: 3s;
 }
 .card img:hover{
    border: 1px solid #989898;
@@ -57,4 +81,22 @@
 }
 .btn button:hover{
     text-decoration: underline;
+}
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding:20px;
+    background-color: aliceblue;
+    border-top:2px solid #bbbbbb;
+}
+.animate{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;  
 }
