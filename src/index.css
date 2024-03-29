@@ -50,15 +50,21 @@ main{
 .text{
     font-size: 40px;
     text-align: center;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 
 .text2{
     text-align: center;
     font-size: 35px;
     padding: 10px;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 .paragrafos{
     font-size: 22px;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 .link{
     font-size: 19px;
@@ -78,6 +84,8 @@ main{
 .main-text{
     font-size: 40px;
     margin: 11px;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 .Low{
     width: 300px;
@@ -101,11 +109,15 @@ main{
 .Entrega{
     margin: 10px;
     font-size: 40px;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 .test{
     margin:10px;
     font-size: 22px;
     text-align: center;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 .homens{
     margin: 3rem;
