@@ -30,6 +30,7 @@
 
  .list-item a:hover{
     text-decoration:underline;
+    color:  rgb(72, 172, 255);
 }
 .test{
     height: 50vh;
