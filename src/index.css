@@ -7,13 +7,16 @@
     list-style: none;
     text-decoration: none;
 }
-
+body{
+    background-color: rgb(255, 255, 255);
+}
 
 .menu{
    display: flex;
    justify-content:space-around;
    align-items: center;
-   background-color:aliceblue;
+   background-color:rgb(255, 255, 255);
+   backdrop-filter: blur(20px);
    box-shadow:1px 1px 6px;
    padding: 15px;
    width: 100%;
@@ -123,16 +126,16 @@ footer{
     bottom:0;
     width: 100%;
     padding:20px;
-    background-color: aliceblue;
+    background-color: rgb(234, 234, 234);
     border-top:2px solid #bbbbbb;
 }
 .animate{
     opacity: 0;
     filter: blur(15px);
-    transition: all 2s;
+    transition: all 1s;
 }
 .show{
     opacity: 1;
     filter: blur(0);
-    transition: all 2s;  
+    transition: all 1s;  
 }
